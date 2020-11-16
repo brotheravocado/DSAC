@@ -1,0 +1,46 @@
+DSAC 2019-12-23 양윤지
+kaggle.com 
+ctrl shift - 분할
+shift enter run
+shift m 병합 merge
+ctrl enter
+alt enter
+l 라인넘버
+o 결과 숨김
+-----------------------------
+code cell
+markdown cell
+-----------------------------
+변수 (immutable) 값을 변경하고 싶다면 새로 만들어야함
+Object,attribute,method]
+string(immutable)
+List (mutable)
+tuple (immutable) 여러개의 결과를 한꺼번에 보여준다
+dictionary h = {"A" :130 , "B" : 171} key에 대한 값 (mutable)
+array : a = array[3,7,9] -> 타입이 다 같아야함 (mutable)
+dataframe :  table ( mutable)
+object를 바꿀수 있는가의 유무에 따라 mutable / immutable
+---------------------------------
+% 매직 커멘드 ex) %run test1.py
+%whos 현재 인터프리터가 알고있는 변수들을 보여준다
+
+a = 7
+help (a)
+dir (a)
+type(a) -> int
+ex)
+b= 8.6
+type(a+b)
+-> float
+-------------------
+c = 3 + 7j
+c.real,c.imag
+Out[15]: (3.0, 7.0)
+------------------
+3/2 #division -> 1.5
+3 // 2 #integer division -> 1
+---------------------
+a = True(1)
+b = False(0)
+두개의 커멘드를 한 줄에 보여주고 싶다면 a = True ; b = False
+a(1) + b(0) = 1 
